@@ -1,2 +1,0 @@
-# Sample
-Demo file
