@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Order Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #27ae60;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .menu-section {
+      background: white;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    button {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1e8449;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to QuickBite Food Order</h1>
+    <p>Delicious Veg, Non-Veg, and Drinks delivered to your door</p>
+  </header>
+
+  <nav>
+    <a href="#veg">Vegetarian</a>
+    <a href="#nonveg">Non-Vegetarian</a>
+    <a href="#drinks">Drinks</a>
+  </nav>
+
+  <section id="veg" class="menu-section">
+    <h2>Vegetarian Menu</h2>
+    <div class="menu-item">
+      <span>Paneer Butter Masala</span>
+      <button>Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <span>Veg Biryani</span>
+      <button>Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <span>Aloo Gobi</span>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <section id="nonveg" class="menu-section">
+    <h2>Non-Vegetarian Menu</h2>
+    <div class="menu-item">
+      <span>Chicken Curry</span>
+      <button>Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <span>Egg Biryani</span>
+      <button>Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <span>Grilled Fish</span>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <section id="drinks" class="menu-section">
+    <h2>Drinks</h2>
+    <div class="menu-item">
+      <span>Mango Lassi</span>
+      <button>Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <span>Lemon Soda</span>
+      <button>Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <span>Cold Coffee</span>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 QuickBite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
